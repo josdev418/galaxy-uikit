@@ -16,20 +16,19 @@ const WalletCard: React.FC<Props> = ({ login, walletConfig, onDismiss, mb }) => 
   return (
     <Button
       fullWidth
-
       onClick={() => {
         login(walletConfig.connectorId);
         window.localStorage.setItem(localStorageKey, "1");
         onDismiss();
       }}
-      style={{ justifyContent: "space-between" }}
+      style={{ justifyContent: "start", backgroundColor: "#14102F" }}
       mb={mb}
       id={`wallet-connect-${title.toLocaleLowerCase()}`}
     >
-      <Text bold mr="16px">
+      <Icon width="32px" />
+      <Text bold ml="16px">
         {title}
       </Text>
-      <Icon width="32px" />
     </Button>
   );
 };
