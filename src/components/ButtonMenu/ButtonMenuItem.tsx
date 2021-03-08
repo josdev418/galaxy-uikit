@@ -10,7 +10,7 @@ type InactiveButtonProps = {
 
 const InactiveButton = styled(Button)<InactiveButtonProps>`
   background-color: transparent;
-  color: ${({ theme, colorKey }) => theme.colors[colorKey]};
+  color: white;
 
   &:hover:not(:disabled):not(:active) {
     background-color: transparent;
