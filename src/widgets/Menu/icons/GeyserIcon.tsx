@@ -6,13 +6,13 @@ interface LogoProps extends SvgProps {
   isDark: boolean;
 }
 
-const Launch: React.FC<LogoProps> = ({ isDark, ...props }) => {
+const GeyserIcon: React.FC<LogoProps> = ({ isDark, ...props }) => {
   const textColor = isDark ? "#FFFFFF" : "#000000";
   return (
     <Svg viewBox="0 0 205 26" {...props}>
-      <image width="24" height="24" href={"images/galaxy/launchIcon.png"} />
+      <image width="24" height="24" href={"images/galaxy/geyserIcon.png"} />
     </Svg>
   );
 };
 
-export default Launch;
+export default GeyserIcon;

@@ -829,7 +829,7 @@ var style = (_a$2 = {},
         fontSize: "20px",
     },
     _a$2[sizes.LG] = {
-        fontSize: "24px",
+        fontSize: "28px",
     },
     _a$2[sizes.XL] = {
         fontSize: "40px",
@@ -1828,7 +1828,7 @@ var Icon$o = function (props) {
         React__default['default'].createElement("path", { d: "M9 8.96997H4C3.45 8.96997 3 8.52997 3 7.96997C3 7.41997 3.45 6.96997 4 6.96997H7C8.1 6.96997 9 7.86997 9 8.96997Z" })));
 };
 
-var Logo$2 = function (_a) {
+var Launch = function (_a) {
     _a.isDark; var props = __rest(_a, ["isDark"]);
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 205 26" }, props),
         React__default['default'].createElement("image", { width: "24", height: "24", href: "images/galaxy/launch-icon.png" })));
@@ -1940,7 +1940,7 @@ var Icon$7 = function (props) {
 var IconModule = /*#__PURE__*/Object.freeze({
     __proto__: null,
     FarmIcon: Icon$o,
-    LaunchIcon: Logo$2,
+    LaunchIcon: Launch,
     GroupsIcon: Icon$n,
     HamburgerIcon: Icon$m,
     HamburgerCloseIcon: Icon$l,
@@ -2251,7 +2251,7 @@ var MenuLink = function (_a) {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     var Tag = isHttpLink ? "a" : reactRouterDom.NavLink;
     var props = isHttpLink ? { href: href } : { to: href };
-    return React__default['default'].createElement(Tag, __assign({ style: { color: '#ffffff' } }, props, otherProps));
+    return React__default['default'].createElement(Tag, __assign({ style: { color: "#7D65FF" } }, props, otherProps));
 };
 
 var Icons$1 = IconModule;
@@ -2268,7 +2268,7 @@ var PanelBody = function (_a) {
         if (entry.items) {
             return (React__default['default'].createElement(Accordion, { key: entry.label, isPushed: isPushed, pushNav: pushNav, icon: iconElement, label: entry.label, initialOpenState: entry.initialOpenState, className: calloutClass }, isPushed &&
                 entry.items.map(function (item) { return (React__default['default'].createElement(MenuEntry, { key: item.href, secondary: true, isActive: item.href === location.pathname, onClick: handleClick },
-                    React__default['default'].createElement(MenuLink, { href: item.href }, item.label))); })));
+                    React__default['default'].createElement(MenuLink, { href: item.href, style: { marginLeft: "15px", fontSize: "16px" } }, item.label))); })));
         }
         return (React__default['default'].createElement(MenuEntry, { key: entry.label, isActive: entry.href === location.pathname, className: calloutClass },
             React__default['default'].createElement(MenuLink, { href: entry.href, onClick: handleClick },

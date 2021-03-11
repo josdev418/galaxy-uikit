@@ -124,8 +124,8 @@ export const socials = [
     icon: "TelegramIcon",
     items: [
       {
-        label: "English",
-        href: "https://t.me/goosedefi",
+        label: "Chat",
+        href: "https://t.me/polarisdefi",
       },
       // {
       //   label: "Bahasa Indonesia",
@@ -169,7 +169,7 @@ export const socials = [
       // },
       {
         label: "Announcements",
-        href: "https://t.me/goosefinanceann",
+        href: "https://t.me/polarisdefiANN",
       },
       // {
       //   label: "Whale Alert",
@@ -180,7 +180,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/FinanceGoose",
+    href: "https://twitter.com/polarisdefi",
   },
 ];
 

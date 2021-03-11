@@ -3,5 +3,5 @@ import { SvgProps } from "../../../components/Svg/types";
 interface LogoProps extends SvgProps {
     isDark: boolean;
 }
-declare const Logo: React.FC<LogoProps>;
-export default Logo;
+declare const Launch: React.FC<LogoProps>;
+export default Launch;
