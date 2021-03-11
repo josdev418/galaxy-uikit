@@ -838,7 +838,7 @@ var style = (_a$2 = {},
         fontSize: "64px",
     },
     _a$2);
-var Heading = styled__default['default'](Text).attrs({ bold: true })(templateObject_1$u || (templateObject_1$u = __makeTemplateObject(["\n  ", "\n  // font-weight:600;\n  line-height: 1.1;\n"], ["\n  ", "\n  // font-weight:600;\n  line-height: 1.1;\n"])), function (_a) {
+var Heading = styled__default['default'](Text).attrs({ bold: false })(templateObject_1$u || (templateObject_1$u = __makeTemplateObject(["\n  ", "\n  // font-weight:600;\n  line-height: 1.1;\n"], ["\n  ", "\n  // font-weight:600;\n  line-height: 1.1;\n"])), function (_a) {
     var size = _a.size;
     return style[size || sizes.MD];
 });
