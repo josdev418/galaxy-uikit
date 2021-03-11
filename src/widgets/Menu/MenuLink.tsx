@@ -7,7 +7,7 @@ const MenuLink: React.FC<AnchorHTMLAttributes<HTMLAnchorElement>> = ({ href, ...
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const Tag: any = isHttpLink ? "a" : NavLink;
   const props = isHttpLink ? { href } : { to: href };
-  return <Tag style={{color:'#ffffff'}} {...props} {...otherProps} />;
+  return <Tag style={{ color: "#7D65FF" }} {...props} {...otherProps} />;
 };
 
 export default MenuLink;
