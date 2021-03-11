@@ -410,7 +410,7 @@ var Icon$B = function (props) {
 
 var Icon$A = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React__default['default'].createElement("image", { width: 90, height: 90, href: "images/galaxy/circle.svg" })));
+        React__default['default'].createElement("image", { width: 90, height: 90, href: "images/galaxy/bavatar.png" })));
 };
 
 var Icon$z = function (props) {
@@ -1831,7 +1831,13 @@ var Icon$o = function (props) {
 var Launch = function (_a) {
     _a.isDark; var props = __rest(_a, ["isDark"]);
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 205 26" }, props),
-        React__default['default'].createElement("image", { width: "24", height: "24", href: "images/galaxy/launch-icon.png" })));
+        React__default['default'].createElement("image", { width: "24", height: "24", href: "images/galaxy/launchIcon.png" })));
+};
+
+var GeyserIcon = function (_a) {
+    _a.isDark; var props = __rest(_a, ["isDark"]);
+    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 205 26" }, props),
+        React__default['default'].createElement("image", { width: "24", height: "24", href: "images/galaxy/geyserIcon.png" })));
 };
 
 var Icon$n = function (props) {
@@ -1941,6 +1947,7 @@ var IconModule = /*#__PURE__*/Object.freeze({
     __proto__: null,
     FarmIcon: Icon$o,
     LaunchIcon: Launch,
+    GeyserIcon: GeyserIcon,
     GroupsIcon: Icon$n,
     HamburgerIcon: Icon$m,
     HamburgerCloseIcon: Icon$l,
@@ -2115,8 +2122,8 @@ var socials = [
         icon: "TelegramIcon",
         items: [
             {
-                label: "English",
-                href: "https://t.me/goosedefi",
+                label: "Chat",
+                href: "https://t.me/polarisdefi",
             },
             // {
             //   label: "Bahasa Indonesia",
@@ -2160,7 +2167,7 @@ var socials = [
             // },
             {
                 label: "Announcements",
-                href: "https://t.me/goosefinanceann",
+                href: "https://t.me/polarisdefiANN",
             },
             // {
             //   label: "Whale Alert",
@@ -2171,7 +2178,7 @@ var socials = [
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/FinanceGoose",
+        href: "https://twitter.com/polarisdefi",
     },
 ];
 var MENU_HEIGHT = 64;
